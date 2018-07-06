@@ -1,0 +1,29 @@
+{
+  "name": "ts.node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
+    "tsc": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datanglibai/ts.node.git"
+  },
+  "author": "wang yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datanglibai/ts.node/issues"
+  },
+  "homepage": "https://github.com/datanglibai/ts.node#readme",
+  "dependencies": {
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
+}
