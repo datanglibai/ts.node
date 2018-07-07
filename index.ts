@@ -42,3 +42,11 @@ course = named;
 console.log(course);
 
 //
+
+//non nullable type
+interface People {
+    name?:string;
+    address?: string;
+}
+let nonNullObj:People = {};
+nonNullObj = null;
