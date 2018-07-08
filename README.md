@@ -85,7 +85,16 @@ Again, it is based on properties set.
 ### What type 'any' does? 
 A grammer suger...fixes all type related compile errors....because annotating a variable with type Any is essentially telling the compiler to bypass the type system, and in general not check type compatibility for this variable.
 
-A variable of type Any is assumed to potentially have any property, like a plain Javascript object
+A variable of type Any is assumed to potentially have any property, like a plain Javascript object.
+
+In coding, any can be assigned with any value, and can assign to any variables.
+
+### Non-Nullable type
+
+### Union and Intersection types
+We may need to recconsider how to define the interfaces we have now.
+
+### Array & Tuple
 
 ## Type Definitions
 In Typescript 2 and beyond, essentially 4 scenarios in what concerns type definitions:
